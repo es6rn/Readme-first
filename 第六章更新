@@ -1,7 +1,7 @@
 6.8.1.2
 
 6.8.1.2中描述barStyle为iOS平台特有属性，从RN 0.43起，它是一个跨平台的属性了。原来开发者需要用原生代
-码实现的设置android手机状态栏颜色，现在可以使用这个属性来设置了。barStyle可取值也多了一个，它们是：
+码设置android手机状态栏颜色，现在可以使用这个属性来设置了。barStyle可取值也多了一个，它们是：
       default	 默认值，iOS为黑色，android为白色
       light-content	 黑色背景，字与图标为白色
       dark-content	浅色背景，字与图标为黑色
