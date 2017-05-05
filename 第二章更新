@@ -1,0 +1,3 @@
+2.3
+代码2-3-1第17行，password请换为secureTextEntry，从RN 0.44开始，废弃了password属性，只允许使用password请换为secureTextEntry。
+如果使用password，将是一个无用的属性，文本输入框不会有密码输入效果。
