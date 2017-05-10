@@ -7,6 +7,7 @@ import {
 } from 'react-native-deprecated-custom-components';
 本书的第三章，第十章的原Navigator组件都可以用这种方式使用。
 当然，如果您是从新开始学习RN，那么更好的办法是直接学习RN官方推荐的react-navigation组件。
+目前全新的第三章与第十章正在编写中，将会在本书上市前在此公布下载网址，供读者下载阅读。给读者带来的不便，我深表遗憾。
 
 
 3.9
