@@ -1,3 +1,10 @@
+2.2.10
+第35页最后一行，在”按”OK“按钮“前，加入：在by Log Tag输入框中输入”ReactNativeJS"，
+
+通过PID与Log Tag双重过滤，可以过滤掉一些无用的信息，比只用PID过滤效果好。
+
 2.3
 代码2-3-1第17行，password请换为secureTextEntry，从RN 0.44开始，废弃了password属性，只允许使用password请换为secureTextEntry。
 如果使用password，将是一个无用的属性，文本输入框不会有密码输入效果。
+
+
