@@ -5,41 +5,13 @@
 import {
      Navigator  
 } from 'react-native-deprecated-custom-components';
-本书的第三章，第十章的原Navigator组件都可以用这种方式使用。
-当然，如果您是从新开始学习RN，那么更好的办法是直接学习RN官方推荐的react-navigation组件。
-目前全新的第三章与第十章正在编写中，将会在本书上市前在此公布下载网址，供读者下载阅读。给读者带来的不便，我深表遗憾。
+本书的原第三章，原第十章的原Navigator组件都可以用这种方式使用。
+
+因为原来的第三章是用Navigator组件讲解的，因此提供了新的第三章。
+新的第三章文档的下载地址：https://pan.baidu.com/s/1c2OnPCW
+请读者自行下载本文档，用此文档替代书中的第三章。如果没有特别原因，不建议学习原书中讲解的Navigator组件。
+
+目前全新的第十章正在编写中，将会在本书上市前在此公布下载网址，供读者下载阅读。
 
 
-3.9
-从RN 0.43开始，Alert API在android平台多了一个onDismiss回调。当用户通过点击屏幕上非Alert窗口区域让Alert窗口消失时，
-这个回调函数将被调用。它的申明方法为：
-Alert.alert(
-        	'弹出框标题提示语',
-        	'弹出框正文提示语',
-        	[
-            	{text: '选项一', onPress: this.option1Selected },
-            	{text: '选项二', onPress: this.option2Selected },
-            	{text: '选项三', onPress: this.option3Selected },
-            	{text: '选项四', onPress: this.option4Selected, style: 'cancel' },
-            	{text: '选项五', onPress: this.option5Selected },
-        	]
-          {
-              onDismiss: () => {
-                                ......//onDismiss时需要进行的业务处理
-                                } 
-          }
-        );
-        开发者也可以禁止用户通过点击屏幕上非Alert窗口区域让Alert窗口消失这种行为。禁止的方法是：
-Alert.alert(
-        	'弹出框标题提示语',
-        	'弹出框正文提示语',
-        	[
-            	{text: '选项一', onPress: this.option1Selected },
-            	{text: '选项二', onPress: this.option2Selected },
-            	{text: '选项三', onPress: this.option3Selected },
-            	{text: '选项四', onPress: this.option4Selected, style: 'cancel' },
-            	{text: '选项五', onPress: this.option5Selected },
-        	]
-          { cancelable: false }   //加上此行禁止
-        );
         
