@@ -1,3 +1,10 @@
+2.2.3
+2.2.6
+补充：React Native的调试服务默认启动在8081端口，如果你的电脑上有其它应用占用了这个端口，可以使用命令
+react-native start --port XXXXX
+（将XXXXX换为你想启动的端口号）来更换启动端口
+
+
 2.2.10
 第35页最后一行，在”按”OK“按钮“前，加入：在by Log Tag输入框中输入”ReactNativeJS"，
 
@@ -8,6 +15,3 @@
 如果使用password，将是一个无用的属性，文本输入框不会有密码输入效果。
 
 
-React Native的调试服务默认启动在8081端口，如果你的电脑上有其它应用占用了这个端口，可以使用命令
-react-native start --port XXXXX
-（将XXXXX换为你想启动的端口号）来更换启动端口
