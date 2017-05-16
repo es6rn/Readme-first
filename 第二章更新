@@ -1,3 +1,6 @@
+2.2.9
+2017年5月16日，React Devtools已经更新版本号至2.1.9。
+有读者在使用Webstrom编辑代码时，无法自动启动React Devtools。关闭Webstrom后就好了。
 
 2.2.10
 第35页最后一行，在”按”OK“按钮“前，加入：在by Log Tag输入框中输入”ReactNativeJS"，
