@@ -1,0 +1,7 @@
+对不起，第100页，代码4-2-14第四行写错了。
+原来第四行是：componentWillMount:function() {
+需要将它修改为：ExampleInterface() {
+
+第四行定义的是ExampleInterface类的构造函数。
+
+并且4-2-14代码中，每个函数后的逗号也是不需要的。
