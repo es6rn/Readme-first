@@ -18,3 +18,13 @@
 
 第二次印刷的书的读者请从这里开始阅读。上面的更新已经在您的书中更新了。
 ===============================================================================
+
+在新的RN版本中，刚初始化后项目目录下不再有index.android.js与index.ios.js，而只是一个index.js。这事实上与老版本是兼容的。
+当RN项目目录下有index.android.js时，在android手机（或者模拟器）上调试RN项目会自动去加载index.android.js。
+当项目目录下没有index.android.js时，在android手机（或者模拟器）上调试RN项目会自动去加载index.js。
+iOS平台也是同理，有index.ios.js优先加载index.ios.js，否则加载index.js
+
+在新的RN版本中，刚初始化后项目目录下index.js非常的短，并且多了个App.js。刚开始接触的读者会觉得与书上的内容不一样。
+仔细看一下，在index.js中，它导入了App.js文件中定义的App组件，然后加载这个组件。
+与老版本RN中（也是书中描述的）在index.android.js(或者index.ios.js）中直接定义组件，然后加载，其实是一回事。
+特此解释一下。
